@@ -19,6 +19,7 @@ workflow {
 
 
 workflow.onComplete {
+    println ${workflow}
     def msg = """\
         Pipeline execution summary
         ---------------------------
